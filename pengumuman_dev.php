@@ -544,11 +544,7 @@ session_start();
 						else if($a=='Failed'){
 									echo "<script>alert('Maaf, data tidak tersimpan. Silahkan Daftar Kembali');history.go(-1);</script>";
 							}
-
-
-						else if($a=='True'){
-
-									 
+						else if($a=='True'){		 
 										$queryhasil="SELECT A.Nomor,A.Tanggal, A.NIK,D.Nama_Pasien, B.Nama_Dokter, C.Jam FROM ANTRIAN A, Dokter B, DOKTER_SMSGATEWAY C, REGISTER_PASIEN D
 										 WHERE A.Tanggal='".$tgl."' and A.No_MR='".$nomr."' and A.Dokter='".$dokter."' and A.Dokter=B.Kode_Dokter and A.Dokter=C.Kode_Dokter and A.No_MR=D.No_MR ";                                                                                
 										$hasila = sqlsrv_query($conn, $queryhasil);
@@ -559,10 +555,6 @@ session_start();
 										$tgl = $hasila['Tanggal'];
 										$nik = $hasila['NIK'];
 										$namap = $hasila['Nama_Pasien'];
-									
-
-
-								 
 									
 									if ($sLastNo <= "20") { 
 										$Datang = 'Satu Jam sebelumnya';
@@ -577,8 +569,6 @@ session_start();
 									}
 										 	?>
 
-
-								
 									   <center>
 								      <h3 style="color: red">Nomor Antrian <span class='fa fa-user'></span></h3>
 								    </center>
