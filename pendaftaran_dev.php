@@ -177,7 +177,7 @@ include "koneksi.php";
       </div>
       <div class="modal-body">
         <!--<form action="pengumuman.php" method="post" onsubmit="disableButton()">-->
-		<form id="configform" action="pengumuman.php" method="post" onsubmit="disableButton()">
+		<form id="configform" action="pengumuman_dev.php" method="post" onsubmit="disableButton()">
         <table class="table " width="100%">
 		<tr>
             <th>Nomor WhatsApp yang Aktif <br>
