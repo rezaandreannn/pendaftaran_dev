@@ -643,11 +643,10 @@ session_start();
 												 
 
 												// send WA
-												//   if($dokter === 100){
-												//   	$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*" . PHP_EOL . "" . PHP_EOL . "" . PHP_EOL . "*Untuk pasien UMUM Register Ulang Pukul 08.00 - 10.00 WIB di bagian Pendaftaran Rawat Jalan RSUMM.*" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;
-												//   }else
-												  if($jenis === 'UMUM'){
-													$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*" . PHP_EOL . "" . PHP_EOL . "" . PHP_EOL . "*Untuk pasien UMUM Register Ulang Pukul 08.00 - 10.00 WIB di bagian Pendaftaran Rawat Jalan RSUMM.*" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;
+												  if($dokter === 100){
+												  	$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*" . PHP_EOL . "" . PHP_EOL . "*Untuk pasien UMUM Register Ulang Pukul 08.00 - 20.00 WIB di bagian Pendaftaran Rawat Jalan RSUMM.*" . PHP_EOL . "" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;
+												  }else if($jenis === 'UMUM'){
+													$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*" . PHP_EOL . "" . PHP_EOL . "*Untuk pasien UMUM Register Ulang Pukul 08.00 - 10.00 WIB di bagian Pendaftaran Rawat Jalan RSUMM.*" . PHP_EOL . " " . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;
 												  }
 												  else{
 													$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*". PHP_EOL . "" . PHP_EOL . "*Untuk pasien BPJS diharapkan Register Ulang " . $Datang . "*" . PHP_EOL . "*di Loket Pendaftaran RSUMM  .*" . PHP_EOL . "" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;}
