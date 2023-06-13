@@ -111,7 +111,8 @@ include "koneksi.php";
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css"> 
+	<!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css">  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
@@ -180,7 +181,7 @@ include "koneksi.php";
 		<form id="configform" action="pengumuman_dev.php" method="post" onsubmit="disableButton()">
         <table class="table " width="100%">
 		<tr>
-            <th>Nomor WhatsApp yang Aktif <br>
+            <th>Nomor WhatsApp yang Aktif <i class="fas fa-exclamation"></i><br>
             	<small>(<i>mohon isi dengan benar untuk mendapatkan no antrian</i>)</small>
             </th>
             <td>:</td>			

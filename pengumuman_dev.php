@@ -24,7 +24,8 @@ session_start();
 	<link rel="favicon" href="assets/images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css"> 
+	<!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css">  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen"> 
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel='stylesheet' id='camera-css'  href='assets/css/camera.css' type='text/css' media='all'> 
@@ -584,10 +585,10 @@ session_start();
 
 										<!-- alert -->
 									<div class="alert alert-warning mt-2 mb-2" role="alert">
-									<h2>PERINGATAN <i class="fas fa-exclamation-triangle"></i></h2>
-									<h1 style="color: green"> Nomor Antrian sudah dikirim ke No.WhatsApp Anda <span class='fa fa-user'></span></h1>
-									<h4>1. Pasien membawa surat kontrol</h4>
-									<h4>2. Pasien yang akan melakukan cek laboratorium untuk registrasi ulang ke pendaftaran terlebih dahulu.</h4>
+									<h2>PEMBERITAHUAN <span style=" color: red";><i class="fas fa-exclamation-triangle"></i></span></h2>
+									<h4>1 Nomor Antrian sudah dikirim ke No.WhatsApp Anda</h4>
+									<h4>2. Pasien membawa surat kontrol</h4>
+									<h4>3. Pasien yang akan melakukan cek laboratorium untuk registrasi ulang ke pendaftaran terlebih dahulu.</h4>
 									</div>
 									<!-- alert -->
 
