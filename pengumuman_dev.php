@@ -577,20 +577,23 @@ session_start();
 										 	?>
 
 
-									<!-- alert -->
-									<div class="alert alert-warning" role="alert">
-									<h5>Informasi</h5>
-									<p>1. Pasien membawa surat kontrol</p>
-									<p>2. Pasien yang akan melakukan cek laboratorium untuk registrasi ulang ke pendaftaran terlebih dahulu.</p>
-									</div>
-									<!-- alert -->
-
+								
 									   <center>
 								      <h3 style="color: red">Nomor Antrian <span class='fa fa-user'></span></h3>
 								    </center>
-								    <center>
-								      <h1 style="color: green"> Nomor Antrian sudah dikirim ke No.WhatsApp Anda <span class='fa fa-user'></span></h1>
-								    </center>
+
+										<!-- alert -->
+									<div class="alert alert-warning mt-2 mb-2" role="alert">
+									<h2>PERINGATAN <i class="fas fa-exclamation-triangle"></i></h2>
+									<h1 style="color: green"> Nomor Antrian sudah dikirim ke No.WhatsApp Anda <span class='fa fa-user'></span></h1>
+									<h4>1. Pasien membawa surat kontrol</h4>
+									<h4>2. Pasien yang akan melakukan cek laboratorium untuk registrasi ulang ke pendaftaran terlebih dahulu.</h4>
+									</div>
+									<!-- alert -->
+
+								    <!-- <center>
+								     
+								    </center> -->
 								<table class="table table-striped">
 								    <tr>
 								        <th width="5%">
