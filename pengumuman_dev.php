@@ -586,7 +586,7 @@ session_start();
 										<!-- alert -->
 									<div class="alert alert-warning mt-2 mb-2" role="alert">
 									<h2>PEMBERITAHUAN <span style=" color: red";><i class="fas fa-exclamation-triangle"></i></span></h2>
-									<h4>1 Nomor Antrian sudah dikirim ke No.WhatsApp Anda</h4>
+									<h4>1. Nomor Antrian sudah dikirim ke No.WhatsApp Anda</h4>
 									<h4>2. Pasien membawa surat kontrol</h4>
 									<h4>3. Pasien yang akan melakukan cek laboratorium untuk registrasi ulang ke pendaftaran terlebih dahulu.</h4>
 									</div>
@@ -648,7 +648,7 @@ session_start();
 												  }
 												  else{
 
-													$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*" . PHP_EOL . "" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" . PHP_EOL . "" . PHP_EOL . "*Untuk pasien BPJS diharapkan Register Ulang " . $Datang . "*" . PHP_EOL . "*di di Loket Pendaftaran RSUMM  .*";}
+													$pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*". PHP_EOL . "" . PHP_EOL . "*Untuk pasien BPJS diharapkan Register Ulang " . $Datang . "*" . PHP_EOL . "*di Loket Pendaftaran RSUMM  .*" . PHP_EOL . "" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" ;}
 
 												$curl = curl_init();
 												$token = "e0rKeReo5D7ErT2HP44N7hL3IOyHCIAK027h99KqyySWniQsj2HyZeDzhL2LsVp4";
