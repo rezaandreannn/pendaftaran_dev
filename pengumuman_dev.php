@@ -645,16 +645,16 @@ session_start();
 												// $pesan = "*Pendaftaran Online RSU Muhammadiyah Metro*". PHP_EOL . "" . PHP_EOL . "*Untuk pasien ". $jenis." langsung menuju ke poli tujuan dan membawa surat kontrol/rujukan FKTP.*" . PHP_EOL . "" . PHP_EOL . "*No.Antrian  : " . trim($sLastNo) . "*" . PHP_EOL . "*NO MR  : " . trim($nomr) . "*" . PHP_EOL . "*Nama Pasien  : " . trim($namap) . "*" . PHP_EOL . "*Tanggal  : " . date_format($tgl, 'd-m-Y') . "*" . PHP_EOL . "*Waktu  : " . trim($jamp) . "*" . PHP_EOL . "*Jaminan  : " . trim($jenis) . "*" . PHP_EOL . "*Dokter  : " . trim($Nama_Dokter) . "*" . PHP_EOL . "" . PHP_EOL . "*Kecuali untuk pasien baru dan program laboratorium.*" . PHP_EOL . "*Untuk pasien riwayat kecelakaan lalu lintas(LK) wajib melampirkan laporan polisi (LP) atau laporan (JR).*" ;
 
 												$pesan = "*Assalamualaikum wr wb.*" . PHP_EOL . PHP_EOL .
-															"Untuk pasien " . "* .  $jenis .*" . " langsung menuju ke poli tujuan," . PHP_EOL .
+															"Untuk pasien"."*".  $jenis ."*". " langsung menuju ke poli tujuan," . PHP_EOL .
 															"membawa surat kontrol/rujukan FKTP," . PHP_EOL .
 															"dan pasien riwayat kecelakaan lalu lintas (LK) wajib melampirkan laporan (LP) atau laporan (JR)." . PHP_EOL . PHP_EOL .
 															"*No.Antrian  : " . trim($sLastNo) ."*" . PHP_EOL .
-															"NO MR       : " . trim($nomr) . PHP_EOL .
-															"Nama Pasien : " . trim($namap) . PHP_EOL .
-															"Tanggal     : " . date_format($tgl, 'd-m-Y') . PHP_EOL .
-															"Waktu       : " . trim($jamp) . PHP_EOL .
-															"Jaminan     : " . trim($jenis) . PHP_EOL .
-															"Dokter      : " . trim($Nama_Dokter) . PHP_EOL . PHP_EOL .
+															"*NO MR       : " . trim($nomr) ."*" . PHP_EOL .
+															"*Nama Pasien : " . trim($namap) ."*" . PHP_EOL .
+															"*Tanggal     : " . date_format($tgl, 'd-m-Y') ."*" . PHP_EOL .
+															"*Waktu       : " . trim($jamp) ."*" . PHP_EOL .
+															"*Jaminan     : " . trim($jenis) ."*" . PHP_EOL .
+															"*Dokter      : " . trim($Nama_Dokter) ."*" . PHP_EOL . PHP_EOL .
 															"*KECUALI:*" . PHP_EOL .
 															"1. Bagi Pasien Baru" . PHP_EOL .
 															"2. Program laboratorium." . PHP_EOL .
